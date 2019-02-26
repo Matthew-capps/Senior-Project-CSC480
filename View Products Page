@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Available Products</title>
+</head>
+<body>
+<h1>Product List</h1>
+<?php
+		// Connecting to Database Products
+		$dbc = mysqli_connect('localhost', 'root', '', 'Products');
+		
+		// Pulling all information from the Table Product_List
+		$query = 'SELECT * FROM Product_List';
+
+		$r = mysqli_query($dbc, $query);
+		
+		// Pulling the information from the Table Product_List so customer can view the available products
+		// Need to Change/Update Reference links within code to actual web page (line 31)  
+		if($r) 
+		{ 
+		while ($row = mysqli_fetch_array($r)) 
+		{
+			print "<p><h3>{$row['Prod_id']}</h3>
+			{$row['Prod_name']}<br>
+			{$row['Prod_price']}<br>
+			{$row['Prod_desc']}<br>
+			{$row['Prod_ingr']}<br>							
+			</p><hr>\n";
+		}
+		print"<p><a href=\"Garyswebsite.php\">Request Additional Information!</a></p>";
+		} 
+		else 
+		{ 
+			print "<p style=\"color: red;\">Could not retrieve the data because:<br>". mysqli_error($dbc) .
+			".</p><p>The query being run was: " . $query . "</p>";
+		} 
+
+		mysqli_close($dbc);
+
+?>
+</body>
+</html>
