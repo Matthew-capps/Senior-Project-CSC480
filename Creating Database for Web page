@@ -1,0 +1,51 @@
+<?php
+
+		 $dbname="Products";
+		 $tbname="Product_List";
+         $dbhost = 'localhost:3306';
+         $dbuser = 'root';
+         $dbpass = '';
+         $conn = @mysqli_connect($dbhost, $dbuser, $dbpass);
+
+         if(! $conn ){
+            print "Could not connect: " . mysqli_error($conn);
+         }
+         print "Connected successfully";
+		 
+		 $sql = "CREATE DATABASE $dbname";
+		 $retval = @mysqli_query($conn, $sql);
+
+         if ($retval)
+		 {
+            print "Database created successfully <br>";
+         }
+		 else
+		 {
+            print "Error creating database: " . mysqli_error($conn);
+         }
+		 
+		 // Creating Table Product
+		 $sql = "CREATE TABLE Product_List (
+				Prod_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+				Prod_name 		VARCHAR(100) NOT NULL,
+				Prod_desc 		VARCHAR(100) NOT NULL,
+				Prod_price		VARCHAR(100) NOT NULL,
+				Prod_ingr		VARCHAR(100) NOT NULL,				
+				) CHARACTER SET utf8";
+				
+		 $retval = @mysqli_query($conn, $sql);
+
+         if ($retval)
+		 {
+            print "Table has been created successfully<br>";
+         }
+		 else
+		 {
+            print "There was an error creating the table $tbname: " . mysqli_error($conn);
+         }
+        
+		mysqli_close($conn);
+
+
+
+?>
