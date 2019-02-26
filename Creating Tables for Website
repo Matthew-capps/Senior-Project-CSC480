@@ -1,0 +1,50 @@
+<?php
+
+		 $dbname="Products";
+		 $tbname="Product_List";
+     $dbhost = 'localhost:3306';
+     $dbuser = 'root';
+     $dbpass = '';
+		 // Connecting to the Database
+     $conn = @mysqli_connect($dbhost, $dbuser, $dbpass);
+		 
+		// Making sure the connection was successful
+     if(! $conn ){
+        print "Could not connect: " . mysqli_error($conn);
+     }
+        print "Connected successfully";
+
+		// Populating the Table Product_List 
+		$sql = "INSERT INTO Product_List (Prod_id, Prod_name, Prod_desc, Prod_price,  Prod_ingr) VALUES
+          (1, \"  \",\"  \",\"  \",\"  \");";
+		 $retval = mysqli_query($conn, $sql);
+		 
+		 // Making sure the information was inserted correctly into the Database/Table
+         if ($retval)
+		 {
+            print "Data has been inserted successfully <br>";
+         }
+		 else
+		 {
+            print "There was an error inserting data into $tbname: " . mysqli_error($conn);
+         }
+
+		 
+		//Format for populating table Product_List
+
+		/*
+		$sql = "INSERT INTO Product_List (Prod_id, Prod_name, Prod_desc, Prod_price,  Prod_ingr) VALUES
+          (1, \"  \",\"  \",\"  \",\"  \");";
+		 $retval = mysqli_query($conn, $sql);
+		 
+         if ($retval)
+		 {
+            print "Data has been inserted successfully <br>";
+         }
+		 else
+		 {
+            print "There was an error inserting data into $tbname: " . mysqli_error($conn);
+         }*/
+		 mysqli_close($conn);
+
+?>
