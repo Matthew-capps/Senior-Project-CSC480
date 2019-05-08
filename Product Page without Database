@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lil' Bitty Bishop</title>
+	<link rel= "stylesheet" type = "text/css" href ="css/style2.css">	
+</head>
+<body>
+
+<div class = "wrapper">
+	<div class = "slide">
+		<div class = "header">
+			<div class = "header-img">
+			<img src= "images/logo.jpg" />
+			</div>
+			<div class = "menu">
+				<ul>
+					<li> <a href = " Homepage.html"> Home</a></li>
+					<li> <a href = " About.html"> About</a></li>
+					<li> <a href = " Products.html"> Products</a></li>
+					<li> <a href = " Contact.html"> Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class = "slideTitle">
+			<h1>Lil' Bitty Bishop Farm</h1>
+			<p></p>
+		</div>
+	</div>
+	<div class = "content">
+		<div class ="content-title">
+			<h2> Products we offer</h2>
+			<div class = "border">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<p class = "content-desc"><b>
+			Please note that due to the handmade nature of these products, colors, shades or 
+			swirl styles may slightly vary. Each product will be unique because of this.
+			<br> </br>
+		</b></p>
+		<p><br>  </br><p>
+		<p><br>  </br><p>
+
+			<table width="1800" border="0" cellpadding="1">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/LemonVerbena.jpg" alt="description here" align = "center" />
+			<br />
+			<b>Lemon Verbena:</b> A Clean, refreshing fragrance with top notes of lime and sweet orange. This light citrus smell will make you feel refreshed.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Bath Bombs $3.00
+			</td>
+		
+			
+			<p><br>  </br><p>
+			<p><br>  </br><p>
+		
+			<td align="center" valign="center">
+			<img src="images/LavenderMilk.jpg" alt="description here"  />
+			<br />
+			<b>Lavender Milk & Honey:</b> A Sweet, warm and comforting scent. This is a heavenly, relaxing pairing that brings all benefits of lavender.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Essential Oil.
+			<br> </br>
+			<b>Available in: </b> Soap
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each
+			</td>
+			
+			</tr>
+			</table>
+			
+			
+			<table width="1800" border="0" cellpadding="5">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/LavenderSoap.jpg" alt="description here" />
+			<br />
+			<b>Lavender:</b> Made with essential oil, lavender is a relaxing and soothing scent that works wonderfully in any body product.                       
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Essential Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, Body Butter, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Body Butter $6.00 for 2oz Jar $12.00 for 4oz Jar<br></br> Bath Bombs $3.00
+			</td>
+
+			<td align="center" valign="center">
+			<img src="images/BlackLicorice.jpg" alt="description here"  />
+			<br />
+			<b>Black Licorice:</b> Made with anise essential oil- a fragrance of sweet black licorice candy. Using this soap in the shower is sure to make you smile.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Essential Oil.
+			<br> </br>
+			<b>Available in: </b> Soap
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each
+			
+			<br> </br>
+			</td>
+			
+			</tr>
+			</table>
+			
+			<table width="1900" border="0" cellpadding="5">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/Oceans.jpg" alt="description here" />
+			<br />
+			<b>Oceans:</b> A beautiful blend of feminine scents that bring out thoughts of deep blue ocean waves.                        
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each
+			</td>
+
+			<td align="center" valign="center">
+			<img src="images/BlackBerry.jpg" alt="description here"  />
+			<br />
+			<b>Blackberry:</b> A semi-sweet and fruity scent that will make you think of summertime in the country.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap and Body Butter
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Body Butter $6.00 for 2oz Jar $12.00 for 4oz Jar
+			</td>
+			
+			</tr>
+			</table>
+			
+			<table width="1900" border="0" cellpadding="5">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/TropicalBreeze.jpg" alt="description here"  />
+			<br />
+			<b>Tropical Breeze:</b> This scent will remind you of clean, sunny, windswept days at the beach.                       
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each
+			</td>
+
+			<td align="center" valign="center">
+			<img src="images/LoveSpell.jpg" alt="description here"  />
+			<br />
+			<b>Love Spell:</b> This is a must have, classic scent with a flirty, floral fragrance. It is sure to make you feel beautiful and desired.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, Body Butter, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Body Butter $6.00 for 2oz Jar $12.00 for 4oz Jar<br></br> Bath Bombs $3.00
+			</td>
+			
+			</tr>
+			</table>
+			
+			<table width="1900" border="0" cellpadding="5">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/Watermelon.jpg" alt="description here"  />
+			<br />
+			<b>Watermelon:</b> A soft, but juicy and delicious scent that will awaken your senses of summer and fun.                       
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each
+			</td>
+
+			<td align="center" valign="center">
+			<img src="images/CucumberMelon.jpg" alt="description here"   />
+			<br />
+			<b>Cucumber Melon:</b> You can't go wrong with this classic scent. A cool, crisp, clean scent with a sweetness that will make you feel fresh and ready for the day.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Bath Bombs $3.00
+			</td>
+			
+			</tr>
+			</table>
+			
+			<table width="1700" border="0" cellpadding="5">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/DaisyChains.jpg" alt="description here"  />
+			<br />
+			<b>Daisy Chains:</b> A crisp, clean must have floral fragrance. It will transport you to a field of sunshine filled with the flirty scent of flowers and the cheerful scent of fruits.                       
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, Body Butter, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Body Butter $6.00 for 2oz Jar $12.00 for 4oz Jar<br></br> Bath Bombs $3.00
+			</td>
+
+			<td align="center" valign="center">
+			<img src="images/MensRoom.jpg" alt="description here"   />
+			<br />
+			<b>Mens Room:</b> This masculine scent strikes the balance of classic and contemporary that completely captures the essence of desire.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, Body Butter, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Body Butter $6.00 for 2oz Jar $12.00 for 4oz Jar<br></br> Bath Bombs $3.00
+			</td>
+			
+			</tr>
+			</table>
+			
+			<table width="1700" border="0" cellpadding="5">
+
+			<tr>
+
+			<td align="center" valign="center">
+			<img src="images/Essentials.jpg" alt="description here"  />
+			<br />
+			<b>Essential:</b> This sporty, masculine scent expresses the spirt of freedom, pleasure and relaxation.                        
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap, Body Butter, and Bath Bomb
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each<br></br> Body Butter $6.00 for 2oz Jar $12.00 for 4oz Jar<br></br> Bath Bombs $3.00
+			</td>
+
+			<td align="center" valign="center">
+			<img src="images/Cedar.jpg" alt="description here"   />
+			<br />
+			<b>Cedar :</b> A clean but earthy scent great for both men and women.
+			<br></br>
+			<b>Ingredients: </b> Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil.
+			<br> </br>
+			<b>Available in: </b> Soap
+			<br> </br>
+			<b>Price: </b> Soap $5.00 each
+			</td>
+			
+			</tr>
+			</table>
+
+	</div>
+</div>
+</div>
+</body>
+</html>
