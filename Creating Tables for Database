@@ -44,13 +44,12 @@
             print "There was an error creating the table $tbname: " . mysqli_error($conn);
          }
         
-		// Creating Table BathBomb
-		 $sql = "CREATE TABLE BathBomb_List (
-				Bath_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-				Bath_name 		VARCHAR(100) NOT NULL,
-				Bath_desc 		VARCHAR(100) NOT NULL,
-				Bath_price		VARCHAR(100) NOT NULL,
-				Bath_ingr		VARCHAR(100) NOT NULL,				
+		// Creating Table Order_List
+		 $sql = "CREATE TABLE Order_List (
+				Order_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+				Order_tracking 		VARCHAR(100) NOT NULL,
+				Cust_ID 		VARCHAR(100) NOT NULL,
+				
 				) CHARACTER SET utf8";
 				
 		 $retval = @mysqli_query($conn, $sql);
@@ -64,13 +63,12 @@
             print "There was an error creating the table $tbname: " . mysqli_error($conn);
          }
 		 
-		 // Creating Table SugarScrub
-		 $sql = "CREATE TABLE SugarScrub_List (
-				Sugar_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-				Sugar_name 		VARCHAR(100) NOT NULL,
-				Sugar_desc 		VARCHAR(100) NOT NULL,
-				Sugar_price		VARCHAR(100) NOT NULL,
-				Sugar_ingr		VARCHAR(100) NOT NULL,				
+		 // Creating Table Customer_list
+		 $sql = "CREATE TABLE Customer_List (
+				Cust_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+				Cust_name 		VARCHAR(100) NOT NULL,
+				Cust_address 		VARCHAR(100) NOT NULL,
+				Cust_age		VARCHAR(100) NOT NULL,				
 				) CHARACTER SET utf8";
 				
 		 $retval = @mysqli_query($conn, $sql);
@@ -83,47 +81,6 @@
 		 {
             print "There was an error creating the table $tbname: " . mysqli_error($conn);
          }
-		 
-		 // Creating Table RoomSpray
-		 $sql = "CREATE TABLE RoomSpray_List (
-				Room_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-				Room_name 		VARCHAR(100) NOT NULL,
-				Room_desc 		VARCHAR(100) NOT NULL,
-				Room_price		VARCHAR(100) NOT NULL,
-				Room_ingr		VARCHAR(100) NOT NULL,				
-				) CHARACTER SET utf8";
-				
-		 $retval = @mysqli_query($conn, $sql);
-
-         if ($retval)
-		 {
-            print "Table has been created successfully<br>";
-         }
-		 else
-		 {
-            print "There was an error creating the table $tbname: " . mysqli_error($conn);
-         }
-		 
-		 // Creating Table BodyButter
-		 $sql = "CREATE TABLE BodyButter_List (
-				Butter_id 		INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-				Butter_name 		VARCHAR(100) NOT NULL,
-				Butter_desc 		VARCHAR(100) NOT NULL,
-				Butter_price		VARCHAR(100) NOT NULL,
-				Butter_ingr		VARCHAR(100) NOT NULL,				
-				) CHARACTER SET utf8";
-				
-		 $retval = @mysqli_query($conn, $sql);
-
-         if ($retval)
-		 {
-            print "Table has been created successfully<br>";
-         }
-		 else
-		 {
-            print "There was an error creating the table $tbname: " . mysqli_error($conn);
-         }
-		 
-		mysqli_close($conn);
-		
+		 		
+		mysqli_close($conn);		
 ?>
