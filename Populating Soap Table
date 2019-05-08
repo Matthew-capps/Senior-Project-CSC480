@@ -1,0 +1,105 @@
+<?php
+
+		 $dbname="Products";
+		 $tbname="Soap_List";
+         $dbhost = 'localhost:3306';
+         $dbuser = 'root';
+         $dbpass = '';
+		 // Connecting to the Database
+         $conn = @mysqli_connect($dbhost, $dbuser, $dbpass);
+		 
+		// Making sure the connection was successful
+         if(! $conn ){
+            print "Could not connect: " . mysqli_error($conn);
+         }
+         print "Connected successfully";
+
+		// Populating the Table Soap_List 
+		$sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (1, \"Lemon Verbena  \",\"A clean, refreshing fragrance with top notes of lime and sweet orange. This light citrus smell will make you feel refreshed.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil\");";
+
+		$sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Mango  \",\"You will be in love with this sent! Sweet and tropical, you will want to pack your bags and head straight to the beach.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		 		 
+		 $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Lavender Milk & Honey  \",\"A Sweet, warm and comforting scent. This is a heavenly, relaxing pairing that brings all benefits of lavender.  \",\"$5.00  \",\"Olive Oil, Goat Milk, 
+		  Lard, Coconut Oil, Sodium Hydroxide, Essential Oil. \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Lavender  \",\"Made with essential oil, lavender is a relaxing and soothing scent that works wonderfully in any body product.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Essential Oil \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Black Licorice  \",\"Made with anise essential oil- a fragrance of sweet black licorice candy. Using this soap in the shower is sure to make you smile.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Essential Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Oceans  \",\"A beautiful blend of feminine scents that bring out thoughts of deep blue ocean waves.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Blackberry  \",\"A semi-sweet and fruity scent that will make you think of summertime in the country.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Tropical Breeze  \",\"This scent will remind you of clean, sunny, windswept days at the beach.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Love Spell  \",\"This is a must have, classic scent with a flirty, floral fragrance. It is sure to make you feel beautiful and desired.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Watermelon  \",\"A soft, but juicy and delicious scent that will awaken your senses of summer and fun.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Cucumber Melon  \",\"You can't go wrong with this classic scent. A cool, crisp, clean scent with a sweetness that will make you feel fresh and ready for the day.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Daisy Chains \",\"YA crisp, clean must have floral fragrance. It will transport you to a field of sunshine filled with the flirty scent of flowers and the cheerful scent of fruits.  \",\"$5.00  
+		  \",\"Olive Oil, Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Mens Room  \",\"This masculine scent strikes the balance of classic and contemporary that completely captures the essence of desire.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Essential  \",\"This sporty, masculine scent expresses the spirit of freedom, pleasure and relaxation.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		  $sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (2, \"Cedar  \",\"A clean but earthy scent great for both men and women.  \",\"$5.00  \",\"Olive Oil, 
+		  Goat Milk, Lard, Coconut Oil, Sodium Hydroxide, Fragrance Oil  \");";
+		  
+		 $retval = mysqli_query($conn, $sql);
+		 
+         if ($retval)
+		 {
+            print "Data has been inserted successfully <br>";
+         }
+		 else
+		 {
+            print "There was an error inserting data into $tbname: " . mysqli_error($conn);
+         }
+		//Format for populating table Product_List
+
+		/*
+		$sql = "INSERT INTO Soap_List (Soap_id, Soap_name, Soap_desc, Soap_price,  Soap_ingr) VALUES
+          (1, \"  \",\"  \",\"  \",\"  \");";
+		 $retval = mysqli_query($conn, $sql);
+		 
+         if ($retval)
+		 {
+            print "Data has been inserted successfully <br>";
+         }
+		 else
+		 {
+            print "There was an error inserting data into $tbname: " . mysqli_error($conn);
+         }*/
+		 mysqli_close($conn);
+
+?>
