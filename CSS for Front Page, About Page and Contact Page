@@ -1,0 +1,228 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 100%;
+	height : auto;
+	min-height: 300px;
+	padding: 0 0px;
+}
+.slide{
+	width: 100%;
+	height: 850px;
+	position: relative;
+	background-image: url('../images/Barn.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.header {
+	position: relative;
+	padding: 60px 66px;
+}
+.header-img img{
+	float: left;
+	width: 150px;
+    height: 150px;
+}
+.header .menu{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	display : inline-block;
+}
+.menu ul li a{
+	display: block;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Myriad Pro;
+}	
+.slideTitle {
+	position: absolute;
+	top: 60%;
+	left:50%;
+	transform: translate(-50%, -50%);	
+	font-family: Myriad Pro;
+}
+.slideTitle h1{
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+.slideTitle p{
+	font-size: 16px;
+	padding: 0 80px;
+	text-align: center;
+	color: white;
+}
+.content{
+	padding: 0 40px;
+	
+}
+.content-title{
+	display: inline-block;
+	width:100%;
+	text-align: center;
+	padding: 35px 0;
+	float: left;
+}
+.content-title h1{
+	font-size: 38px;
+	font-family: Myriad Pro;
+	color: #333333;
+}
+.border span{
+	width: 8px;
+	height: 8px;
+	margin: 0 3px;
+	background-color: #9aabcf;
+	border-radius: 100px;
+	display: inline-block;
+}
+p.content-desc{
+	font-size: 18px;
+	color: #393838;
+	padding: 0 5px;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	font-family: Myriad Pro;	
+}
+p.content-descp b{
+	font-size: 28px;
+	color: #393838;
+	padding: 0 5px;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	font-family: Myriad Pro;	
+}
+.skill-selection {
+	display: inline-block;
+	width: 100%;
+	float: left;
+	padding: 35px 0;
+}
+.skill-img img{
+	width: 50%;
+	float: left;
+	
+}
+.product-selection{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	padding: 35px 0;
+}
+.product-img img{
+	position: absolute;
+	left: 150px;
+	width: 350px;
+	height: 250px;	
+	margin-top: 250px;
+}
+.skill-content{
+	width: 40%;
+	float: right;
+}
+h3.skill-title {
+	font-size: 28px;
+	font-family: Myriad Pro;
+	color: #393838;
+	font-weight: 500;
+	float: left;
+	width: 100%;
+}
+.skill-con p {
+	padding-top: 30px;
+	font-size: 25px;
+	
+}
+.skills {
+	width: 100%;
+	float: left;
+	padding-top: 30px;
+	padding-right: 30px;
+}
+.skills i{
+	color: #393838;
+	font-family: Myriad Pro;
+	clear: both;
+	float: left;
+	font-size: 18px;
+}
+.skill-Email {
+	padding-top: 30px;
+	float: left;
+	font-size: 35px;
+	font-style: Myriad Pro;
+	position : center;	
+}
+.skill-Phone{
+	padding-top: 30px;
+	float: left;
+	font-size: 35px;
+	font-style: Myriad Pro;
+	position : center;	
+}
+h3.product-title {
+	font-size: 28px;
+	font-family: Myriad Pro;
+	color: #393838;
+	font-weight: 500;
+	float: left;
+	width: 100%;
+}
+.skills span{
+	width: 100%;
+	height: 35px;
+	margin-top: 5px;
+	border: 1px solid #9aabcf;
+	display: inline-block;
+	float: left;
+}
+.skills span abbr{
+	width: 70%;
+	height: 35px;
+	background-color: #9aabcf;
+	display: inline-block;
+}
+.skills.service span abbr{
+	width: 85%;
+}
+.skills.efficiency span abbr{
+	width: 90%;
+}
+.skills.guarantee span abbr {
+	width: 100%;
+}
+.about-content {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	font-family: Myriad Pro;
+	color: #393838;
+	padding: 35px 0;
+}
+.about-desc {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.about-desc p {
+	padding-bottom: 15px;
+	font-size: 28px;
+}
+.about-img{
+	width: 50%;
+	float: right;	
+}
