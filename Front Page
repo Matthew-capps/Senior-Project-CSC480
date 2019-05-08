@@ -1,9 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title> Itty Bitty Bishop Farm</title>
+	<title>Lil' Bitty Bishop Farm</title>
+	<link rel= "stylesheet" type = "text/css" href ="css/style.css">	
 </head>
 <body>
-<h1>Title Here</h1>
 
+<div class = "wrapper">
+	<div class = "slide">
+		<div class = "header">
+		<div class = "header-img">
+			<img src= "images/logo.jpg" />
+			</div>
+			<div class = "menu">
+				<ul>
+					<li> <a href = " Homepage.html"> Home</a></li>
+					<li> <a href = " About.html"> About</a></li>
+					<li> <a href = " Products.html"> Products</a></li>
+					<li> <a href = " Contact.html"> Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class = "slideTitle">
+			<h1>Lil' Bitty Bishop Farm</h1>
+			<p></p>
+		</div>
+	</div>
+	<div class = "content">
+		<div class ="content-title">
+			<h2> Who We Are</h2>
+			<div class = "border">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<p class = "content-desc">
+			Lil' Bitty Bishop Farm is a family owned business located in Longview, Washington. 
+			We strive to keep our ingredients simple but useful and all natural. 
+		</p>
+		
+		<div class = "skill-selection">
+			<div class = "skill-img">
+				<img src = "images/GoatHouse.jpg" />
+			</div>
+			<div class = "skill-content">
+				<h3 class = "skill-title"> <i>Our Skill Set</i></h3>
+				<div class = "skills">
+					<i> Experience</i>
+					<span><abbr></abbr></span>					
+				</div>
+				<div class = "skills service">
+					<i> Customer Service</i>
+					<span><abbr></abbr></span>				
+				</div><div class = "skills efficiency">
+					<i> Efficiency</i>
+					<span><abbr></abbr></span>				
+				</div><div class = "skills guarantee">
+					<i> Product Guarantee</i>
+					<span><abbr></abbr></span>				
+				</div>				
+			</div>
+			<div class = "about-content">
+				<div class = "about-desc">
+					<p><b><i>Few of our goat friends</i></b></p>
+					<p>Gary & Angie Bishop live in Longview, Washington with five children on three acres where they 
+					raise goats, chickens, ducks and rabbits. The Bishops are mostly known for their goat soap that is 
+					hand crafted.  They expanded their business recently by developing bath bombs, perfumes and lotions. 
+					<p>All their products are used with all-natural ingredients and milk from their goats. Gary and Angie 
+					work full time, but their goal is to one day retire and sell their products at local Farmer Markets.</p>
+</p>
+				</div>
+				<div class =" about-img">
+					<img src = "images/Farm.jpg" />
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
