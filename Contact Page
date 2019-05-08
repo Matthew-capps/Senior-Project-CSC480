@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Lil' Bitty Bishop</title>
+	<link rel= "stylesheet" type = "text/css" href ="css/style.css">	
+</head>
+<body>
+
+<div class = "wrapper">
+	<div class = "slide">
+		<div class = "header">
+			<div class = "header-img">
+			<img src= "images/logo.jpg" />
+			</div>
+			<div class = "menu">
+				<ul>
+					<li> <a href = " Homepage.html"> Home</a></li>
+					<li> <a href = " About.html"> About</a></li>
+					<li> <a href = " Products.html"> Products</a></li>
+					<li> <a href = " Contact.html"> Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class = "slideTitle">
+			<h1>Lil' Bitty Bishop Farm</h1>
+			<p></p>
+		</div>
+	</div>
+	<div class = "content">
+		<div class ="content-title">
+			<h2> Contact Us</h2>
+			<div class = "border">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<p class = "content-descp">
+			<b>Please Call or Email with any concerns or questions about our products.</b>
+		</p>
+		
+		<div class = "skill-selection">
+			<div class = "skill-img">
+				<img src = "images/Chicken.jpg" />
+			</div>
+			<div class = "skill-content">
+				<h3 class = "skill-title"><b> Contact Information</b></h3>
+				<p><br> </br></p>
+				<p><br> </br></p>
+				<p><br> </br></p>
+				<p><br> </br></p>
+			<div class = "skill-Email">
+				<i>Email:</i><b> Bishop6576@gmail.com</b>								
+			</div>
+			<div class = "skill-Phone">
+				<i> Phone Number:</i> <b>(360)751-2159</b>
+			</div>
+
+	
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
